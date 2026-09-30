@@ -106,14 +106,18 @@ ContentForge/
 
 ---
 
-## 🖥️ Deploying to Hugging Face Spaces
+## 🖥️ Live Demo & Deployment
 
-1. Create a new Space on [huggingface.co/spaces](https://huggingface.co/spaces) with **Streamlit** SDK
-2. Push your code to the Space repo
-3. Add `GROQ_API_KEY` as a **Secret** in Space Settings → Variables and Secrets
-4. The app will auto-deploy
+**🌟 Try the live app here:** [ContentForge](https://contentforge-aman.streamlit.app/)
 
-> **Do NOT** commit your `.env` file. The `.gitignore` already excludes it.
+### Deploying your own instance to Streamlit Community Cloud:
+
+1. Push your code to a public or private GitHub repository.
+2. Go to [share.streamlit.io](https://share.streamlit.io/) and log in with GitHub.
+3. Click **New app** and select your GitHub repository, branch (`main`), and file path (`app.py`).
+4. Click **Advanced settings...** and add your API key in the **Secrets** section:
+   ```toml
+   GROQ_API_KEY="your_actual_api_key_here"
 
 ---
 

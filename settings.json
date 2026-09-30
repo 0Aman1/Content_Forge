@@ -1,0 +1,11 @@
+{
+    "theme": "light",
+    "default_model": "gpt-oss-20b",
+    "default_tone": "Professional",
+    "default_style": "Concise",
+    "default_language": "English",
+    "auto_save_history": true,
+    "show_advanced_options": false,
+    "export_format": "txt",
+    "session_memory_enabled": true
+}
